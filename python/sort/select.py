@@ -25,5 +25,5 @@ def select_sort(numbers: List[int]) -> List[int]:
     return numbers
 
 
-nums = [random.randint(0, 1000) for i in range(10)]
+nums = [random.randint(0, 1000) for _ in range(10)]
 print(select_sort(nums))

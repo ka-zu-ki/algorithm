@@ -31,5 +31,5 @@ def comb_sort(numbers: List[int]) -> List[int]:
     return numbers
 
 
-nums = [random.randint(0, 1000) for i in range(10)]
+nums = [random.randint(0, 1000) for _ in range(10)]
 print(comb_sort(nums))
